@@ -1,1 +1,120 @@
-/* Add you CSS here */
+/* Basic reset for margins and padding */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a simple background color and font */
+body {
+  font-family: Arial, sans-serif; /* Easy-to-read font */
+  background-color: #f9f9f9;     /* Light background */
+  color: #222;                   /* Dark text for contrast */
+  line-height: 1.6;              /* More readable text */
+}
+
+/* Center the header text */
+header {
+  background-color: #4f8cff;     /* Blue header */
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* Add spacing between sections */
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;              /* Keeps content narrow and readable */
+  border-radius: 8px;            /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Soft shadow */
+}
+
+/* Style section headings */
+section h2 {
+  color: #4f8cff;
+  margin-bottom: 10px;
+}
+
+/* Style lists */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background: #eee;
+  color: #555;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+/* Add a simple hover effect for links */
+a {
+  color: #4f8cff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;    /* Underline on hover for emphasis */
+}
+
+/* Style the navigation bar */
+nav {
+  text-align: center; /* Center the navigation bar */
+  margin-top: 15px;
+}
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline; /* Display list items in a row */
+  margin-right: 20px; /* Space between links */
+}
+nav ul li:last-child {
+  margin-right: 0; /* No space after the last link */
+}
+
+/* Style the Favorite Games section to be horizontal */
+#games ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center the list */
+}
+#games ul li {
+  display: inline-block; /* Display games in a row */
+  margin: 10px 15px; /* Space between games */
+  text-align: center;
+}
+.game-icon {
+  width: 80px; /* Make icons square */
+  height: 80px;
+  border-radius: 12px; /* Rounded corners */
+  object-fit: cover; /* Make sure the image covers the square */
+  display: block;
+  margin: 0 auto 8px auto; /* Center icon and add space below */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Soft shadow for icons */
+  background: #eee; /* Fallback background */
+}
+#games span {
+  display: block;
+  margin-top: 4px;
+  font-size: 1em;
+}
+
+/* Profile image styles */
+.profile-pic {
+  width: 100px; /* Make the image square */
+  height: 100px;
+  border-radius: 16px; /* Rounded corners */
+  object-fit: cover; /* Make sure the image covers the square */
+  display: block;
+  margin: 0 auto 16px auto; /* Center image and add space below */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Soft shadow for image */
+  background: #eee; /* Fallback background */
+}

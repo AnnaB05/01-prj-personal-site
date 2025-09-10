@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <title>Welcome to Anna's Portfolio!</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,10 +20,13 @@
 
   <!-- Website Header -->
   <header>
-    <!-- Profile image above the main heading -->
-    <img src="img/bubbles icon.jpg" alt="Profile picture" class="profile-pic">
-    <h1>My Personal Site</h1>
-    <p>Welcome to my portfolio!</p>
+    <!-- Banner overlay for readability -->
+    <div class="banner-overlay">
+      <!-- Profile image above the main heading -->
+      <img src="img/bubbles icon.jpg" alt="Profile picture" class="profile-pic">
+      <h1>My Personal Site</h1>
+      <p>Welcome to my portfolio!</p>
+    </div>
   </header>
 
   <!-- About Me Section -->
@@ -33,6 +36,10 @@
       <!-- Write a short introduction about yourself here -->
       Hi! I'm a web development student learning to build awesome websites.
     </p>
+    <!-- More about me paragraph -->
+    <p>
+      Hello! My name is Anna and I am studying computer science at the University of Louisville's Speed School of Engineering. I dove into the computer science scene with hopes to becoming a video game developer! I'll be using this site to document my adventures!
+    </p>
   </section>
 
   <!-- Skills Section -->
@@ -40,9 +47,26 @@
     <h2>Skills</h2>
     <ul>
       <!-- List your skills here -->
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript (learning)</li>
+      <li>
+        <!-- Python icon above the skill name -->
+        <img src="img/python.png" alt="Python" class="skill-icon"><br>
+        Python
+      </li>
+      <li>
+        <!-- C/C++ icon above the skill name -->
+        <img src="img/css3.png" alt="C/C++" class="skill-icon"><br>
+        CSS(learning)
+      </li>
+      <li>
+        <!-- Java icon above the skill name -->
+        <img src="img/java.png" alt="Java" class="skill-icon"><br>
+        Java (learning)
+      </li>
+      <li>
+        <!-- HTML/CSS icon above the skill name -->
+        <img src="img/html-5.png" alt="HTML/CSS" class="skill-icon"><br>
+        HTML (learning)
+      </li>
     </ul>
   </section>
 
@@ -51,14 +75,16 @@
     <h2>Projects</h2>
     <ul>
       <!-- Add your projects here -->
-      <li>Project 1: Coming soon!</li>
-      <li>Project 2: Coming soon!</li>
+      <li>This is where my future projects will live! Stay Tuned!</li>
+      
     </ul>
   </section>
 
   <!-- Favorite Games Section -->
   <section id="games">
     <h2>Favorite Games</h2>
+    <!-- Description under the Favorite Games header -->
+    <p>These are some of my favorite games! Click the icons to see more about each game!</p>
     <ul>
       <!-- List your favorite games here -->
       <li>
@@ -93,10 +119,20 @@
   <!-- Contact Me Section -->
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>
-      <!-- Add your contact details here -->
-      Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
-    </p>
+    <p>You can reach me through the following platforms:</p>
+    <!-- Contact icons -->
+    <div class="contact-icons">
+      <!-- LinkedIn icon: Replace the href and src with your own profile and icon image -->
+      <a href="www.linkedin.com/in/AnnaBakerUofL" target="_blank">
+        <img src="img/linkdinTempicon.png" alt="LinkedIn" class="contact-icon">
+        <span class="contact-label">LinkedIn</span>
+      </a>
+      <!-- Email icon: Replace src with your own icon image -->
+      <a href="mailto:your.aebake05@louisville.edu">
+        <img src="img/mail_25dp_5084C1_FILL0_wght400_GRAD0_opsz24.png" alt="Email" class="contact-icon">
+        <span class="contact-label">Email</span>
+      </a>
+    </div>
   </section>
 
   <!-- Website Footer -->
